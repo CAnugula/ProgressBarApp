@@ -1,0 +1,6 @@
+<div class="container" [ngClass]="{'container--red': value === limit}">
+    Bar {{itemNum}}: <progress id="{{itemNum}}" 
+     max="{{limit}}" 
+     value="{{value}}"> </progress> {{value}}%
+</div>
+<!-- [ngClass]="{'container--red': value === limit}"  -->

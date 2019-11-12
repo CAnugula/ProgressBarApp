@@ -1,0 +1,35 @@
+
+.container {
+    padding:20px;
+    margin:10px;
+    width:100%;
+
+    progress[value] {
+        /* Reset the default appearance */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    &--red {
+        progress[value] {
+            /* Reset the default appearance */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+    
+        progress::-webkit-progress-value,
+        progress::-moz-progress-bar {
+            background-color: red;
+        }
+    }
+}
+
+
+
+
+
+
+
+
