@@ -19,8 +19,11 @@
             appearance: none;
         }
     
-        progress::-webkit-progress-value,
         progress::-moz-progress-bar {
+            background-color: red;
+        }
+
+        progress::-webkit-progress-value {
             background-color: red;
         }
     }
