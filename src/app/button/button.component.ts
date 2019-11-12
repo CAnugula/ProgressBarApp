@@ -15,7 +15,6 @@ export class ButtonComponent implements OnInit {
   }
 
   onClick(){
-    console.log("button Compo "+this.buttonValue );
     this.progressBarChanged.emit(this.buttonValue);
   }
 
